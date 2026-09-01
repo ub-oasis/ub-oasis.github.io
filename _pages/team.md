@@ -92,6 +92,6 @@ permalink: /team/
 ### Join the Lab
 
 <div class="callout callout-info" markdown="0">
-<p>We are always looking for passionate PhD students, MS students, and undergraduate researchers interested in scalable machine learning, anomaly detection, biomedical data science, and complex dynamical systems.</p>
+<p>We are always looking for passionate PhD students, MS students, undergraduate researchers, and high-school students interested in Artificial Intelligence, Anomaly Detection, Advanced Cyberinfrastructure and Data Science.</p>
 <p>If you are interested in joining our group, please reach out to Dr. Chandola via email at <a href="mailto:chandola@buffalo.edu">chandola@buffalo.edu</a> with your CV and a brief statement of research interests.</p>
 </div>
