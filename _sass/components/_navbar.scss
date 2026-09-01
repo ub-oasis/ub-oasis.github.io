@@ -25,22 +25,22 @@
   font-weight: 700;
   letter-spacing: -0.01em;
   color: var(--text-primary) !important;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
 
   img {
     border-radius: 0;
-    opacity: 0.85;
+    opacity: 0.95;
   }
 }
 
 .nav-link {
   color: var(--text-secondary) !important;
-  font-weight: 500;
-  font-size: 0.8125rem;
+  font-weight: 600;
+  font-size: 1.0625rem;
   padding: var(--space-2) var(--space-3) !important;
   border-radius: var(--radius-sm);
   transition: color var(--transition-fast), background-color var(--transition-fast);
-  letter-spacing: 0.02em;
+  letter-spacing: 0.01em;
 
   &:hover {
     color: var(--accent) !important;
@@ -71,13 +71,13 @@
   padding: var(--space-2);
   color: var(--text-muted);
   cursor: pointer;
-  font-size: 0.875rem;
+  font-size: 1rem;
   line-height: 1;
   transition: all var(--transition-fast);
   display: flex;
   align-items: center;
-  width: 2rem;
-  height: 2rem;
+  width: 2.35rem;
+  height: 2.35rem;
   justify-content: center;
 
   &:hover {
@@ -93,7 +93,7 @@
   padding: var(--space-2) var(--space-3);
   border-radius: var(--radius-sm);
   color: var(--text-muted);
-  font-size: 1rem;
+  font-size: 1.1rem;
 
   &:focus {
     box-shadow: 0 0 0 3px var(--accent-light);
@@ -114,7 +114,7 @@
   .nav-link {
     padding: var(--space-3) var(--space-4) !important;
     border-radius: var(--radius-md);
-    font-size: 0.9375rem !important;
+    font-size: 1.125rem !important;
 
     &.active::after {
       display: none;
