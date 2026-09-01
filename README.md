@@ -1,41 +1,56 @@
-# ubds lab research
+# OASIS Research Lab Website
 
-## Build site
+This repository hosts the official website for the **Optimizing Artificial Intelligence Solutions and Infrastructure for Science (OASIS) Research Group**, led by Dr. Varun Chandola.
 
-To build the website locally, clone the repo with:
+The site is built with Jekyll and powered by the modern [sbryngelson/academic-website-template](https://github.com/sbryngelson/academic-website-template).
 
-```
+---
+
+## Features
+
+- **Searchable Publications**: Powered by `jekyll-scholar`, with live search, downloadable PDFs, DOI links, and BibTeX modals.
+- **Dynamic Research Projects**: Categorized cards for active and completed research thrusts with funding agency badges.
+- **Lab Team Directory**: PI profile, active postdocs/doctoral researchers, and alumni directory with affiliations and headshots.
+- **Modern UI**: Dark/Light mode switcher, frosted glass navbar, responsive typography, and `Cmd+K` site-wide search.
+- **GitHub Actions Deployment**: Automatic builds and deployments on push to `main`.
+
+---
+
+## Local Development
+
+### Prerequisites
+- Ruby (3.2+ recommended)
+- Bundler (`gem install bundler`)
+
+### Setup & Run
+```bash
+# 1. Clone repository
 git clone https://github.com/ubdsgroup/ubdsgroup.github.io.git
+cd ubdsgroup.github.io
+
+# 2. Install dependencies
+bundle install
+
+# 3. Start local development server
+bundle exec jekyll serve --livereload
 ```
+Open [http://localhost:4000/](http://localhost:4000/) in your browser.
 
-Then install necessary Ruby dependencies by running `bundle install` from within the `blotter` directory.  After this, the site can be be built with:
+---
 
-```
-bundle exec jekyll build
-```
+## Site Content & Editing Guide
 
-(If you are getting errors at this stage, it may be due to your version of `bundle`. Try `gem uninstall bundler` + `gem install bundler -v 1.13.1`.)
+- **Site Settings & Identity**: `_config.yml`
+- **Publications / Papers**: `assets/ref.bib` (PDFs stored in `papers/`)
+- **Research Projects**: `_pages/research.md`
+- **Team Members & Alumni**: `_data/team_members.yml` and `_data/alumni.yml` (Photos in `images/team/`)
+- **News & Announcements**: `_data/news.yml` and `_pages/news.md`
+- **Teaching**: `_pages/teaching.md`
+- **About PI & Contact**: `_pages/about.md` and `_data/pi.yml`
 
-To view the site, run `bundle exec jekyll serve` and point a browser to `http://localhost:4000/`.  More information on Jekyll can be found [here](http://jekyllrb.com/).
-
-To include projects, preprocessing scripts are necessary to clone project repos and update Jekyll metadata. This can be accomplished with:
-
-```
-ruby _scripts/update-and-preprocess.rb
-```
-
-Then `jekyll build` works as normal.
+---
 
 ## License
 
-All source code in this repository, consisting of files with extensions `.html`, `.css`, `.less`, `.rb` or `.js`, is freely available under an MIT license. This website is derived from the excellent website by Nathan Bedford at [bedford.io](http://bedford.io).
-
-**The MIT License (MIT)**
-
-Copyright (c) 2020-2025 Varun Chandola
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Source code is available under the MIT License.
+Template based on [sbryngelson/academic-website-template](https://github.com/sbryngelson/academic-website-template).

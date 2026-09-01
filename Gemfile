@@ -1,21 +1,13 @@
 source 'https://rubygems.org'
 
-# jekyll
-gem "jekyll", "~> 4.3.3"
-gem "execjs"
-gem "jekyll-theme-minimal"
-#gem "jekyll-theme-cayman"
-
-# compiling less
-gem 'therubyracer'
-gem 'less'
-
-# octokit
-gem 'octokit'
-gem 'netrc'
-
-gem "csv", "~> 3.3"
-gem "base64", "~> 0.3.0"
-gem "bigdecimal", "~> 4.1"
-
-gem "rexml", "~> 3.4"
+gem "jekyll", "4.3.3"
+gem "sass-embedded", "~> 1.77.0"  # pin to avoid noisy deprecation warnings from Bootstrap SCSS
+gem "rack", ">= 2.2.3"
+gem "kramdown-parser-gfm"
+gem 'jekyll-scholar'
+gem 'jekyll-sitemap'
+gem "webrick", "~> 1.7"
+gem "csv"
+gem "base64"
+gem "bigdecimal"
+gem "observer"

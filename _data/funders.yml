@@ -1,0 +1,18 @@
+- name: National Science Foundation
+  logo: logos/nsf.jpg
+  url: https://www.nsf.gov
+- name: Agency for Healthcare Research and Quality
+  logo: logos/ahrq.jpg
+  url: https://www.ahrq.gov
+- name: Department of Energy / NNSA
+  logo: logos/doe.jpg
+  url: https://www.energy.gov
+- name: Juvenile Diabetes Research Foundation
+  logo: logos/jdrf.jpg
+  url: https://www.jdrf.org
+- name: Amazon Science
+  logo: logos/amazon.jpg
+  url: https://www.amazon.science
+- name: University at Buffalo
+  logo: logos/ub.jpg
+  url: https://www.buffalo.edu

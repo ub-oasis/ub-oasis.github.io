@@ -1,0 +1,30 @@
+- name: Davoud Adinehloo
+  photo: team/davoud-adinehloo.jpg
+  info: Postdoctoral Researcher
+  github: https://github.com/DavoudAdineh
+  linkedin: https://www.linkedin.com/in/davoud-adinehloo-bb25b388
+- name: Dwyer Deighan
+  photo: team/dwyer-deighan.jpg
+  info: PhD Student
+  github: https://github.com/ProfPlum
+- name: Namit Juneja
+  photo: team/namit-juneja.jpg
+  info: PhD Student
+  github: https://github.com/namitjuneja
+  linkedin: https://www.linkedin.com/in/namitjuneja
+  cv: pdfs/team/namit-juneja-cv.pdf
+- name: Saumya Pandey
+  photo: team/saumya-pandey.jpg
+  info: PhD Student
+  github: https://github.com/ubdsgroup
+  linkedin: https://www.linkedin.com/in/saumya-pandey-b31499167
+- name: Tanvi Ranga
+  photo: team/tanvi-ranga.jpg
+  info: PhD Student
+  github: https://github.com/t2025
+  linkedin: https://www.linkedin.com/in/tanvi-ranga-5b2459118
+- name: Vikram Velankar
+  photo: team/vikram-velankar.jpeg
+  info: PhD Student
+  github: https://github.com/vikram-p-velankar
+  linkedin: https://www.linkedin.com/in/vikram-velankar
