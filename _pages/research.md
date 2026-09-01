@@ -7,7 +7,7 @@ permalink: /research/
 
 ## Research Projects
 
-Our lab engages in multidisciplinary research projects spanning foundational machine learning algorithms and real-world domain applications.
+Our lab engages in transdisciplinary research spanning foundational AI modeling, advanced cyber-infrastructure research, and scientific applications.
 
 ---
 
