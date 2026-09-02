@@ -396,3 +396,20 @@
   doi = {10.3389/frhs.2026.1737047},
   abstract = {The key challenge of successful implementation of healthcare innovations is balancing between intervention fidelity and the constantly changing healthcare environment where the implementation occurs. Unexpected changes as well as staff turnover are likely to affect implementation success and sustainability. Ensuring implementation fidelity requires researchers to adhere to the study design and implementation plan.},
 }
+
+@INPROCEEDINGS {11634742,
+author = { Pandey, Saumya and Chandola, Varun },
+booktitle = { 2026 IEEE 14th International Conference on Healthcare Informatics (ICHI) },
+title = {{ Modeling Patient Care Trajectories with Transformer Hawkes Processes }},
+year = {2026},
+volume = {},
+ISSN = {},
+pages = {1067-1076},
+abstract = { Patient healthcare utilization consists of irregularly time-stamped events, including outpatient visits, inpatient admissions, and emergency department encounters, which together form individualized care trajectories. Modeling such trajectories is essential for understanding utilization patterns and anticipating future care needs, but remains challenging due to temporal irregularity and severe class imbalance in real-world healthcare data. In this work, we build upon the Transformer Hawkes Process framework to model patient healthcare utilization trajectories in continuous time under realistic, highly imbalanced data conditions. By combining Transformer-based history encoding with a Hawkes point process formulation, the framework captures event-driven temporal dynamics and supports joint prediction of the next event type and the time gap until its occurrence. While prior Transformer-based point process models offer expressive temporal representations, they have not been systematically evaluated under the extreme event-type imbalance characteristic of healthcare utilization data. To address this limitation, we incorporate an imbalance-aware optimization strategy based on weighted cross-entropy, with class weights defined by the inverse square root of event frequencies. This approach preserves the natural temporal structure of patient trajectories while substantially improving sensitivity to rare but clinically significant inpatient and emergency events, without resorting to resampling or altering the underlying event distribution. We evaluate the resulting framework on real-world patient utilization data and demonstrate that this imbalance-aware extension enables more effective modeling of highly skewed care trajectories and improves both event-type prediction and time-to-event estimation. The resulting predictions provide clinically meaningful insights that can support healthcare systems in identifying, monitoring, and managing high-need, high-cost patient populations. },
+keywords = {Medical services;Modeling;Timing;Trajectory;Transformers;History;Equations;Sequences;Sequential analysis;Training},
+doi = {10.1109/ICHI69079.2026.00132},
+url = {https://doi.ieeecomputersociety.org/10.1109/ICHI69079.2026.00132},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+month =Jun}
+
